@@ -1,12 +1,12 @@
 cask "actual-files" do
-  version "0.77.125"
+  version "0.77.126"
 
   on_arm do
-    sha256 "d65b16cec58fd20b242e4fcc252aa80d3cf083f8c5b83dfd19e3510f7ce035a6"
+    sha256 "9cbb430e762f289357c1d8168f686c35aea80bbfa7ff2166730919fd6337d6d3"
     url "https://downloads.signalassembly.com/actual-files-v#{version}-Actual.Files_#{version}_aarch64.dmg"
   end
   on_intel do
-    sha256 "3c7c985b2f0ee3a5b5af91258eeb747363588c7aae01632f54ab46423ef5d57e"
+    sha256 "cd59bfb5e04a41dd5bb633c56d20853be07cbf1b50aa5c71ad64a14ad6be5966"
     url "https://downloads.signalassembly.com/actual-files-v#{version}-Actual.Files_#{version}_x64.dmg"
   end
 
